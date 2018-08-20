@@ -28,13 +28,10 @@ public class Zona {
 	  	String zonanume = driver.findElement(By.xpath("/html/body/div["+i+"]/table[1]/thead/tr[2]/th/span[1]")).getAttribute("textContent");
 	  	String zonanome = driver.findElement(By.xpath("/html/body/div["+i+"]/table[1]/thead/tr[2]/th/span[2]")).getAttribute("textContent");
 	  	String logradouro = driver.findElement(By.xpath("/html/body/div["+i+"]/table[2]/tbody/tr[1]/td[2]/span")).getAttribute("textContent");
-	  	String num = driver.findElement(By.xpath("/html/body/div["+i+"]/table[1]/thead/tr[2]/th")).getAttribute("textContent");
-	  	String complemento = driver.findElement(By.xpath("/html/body/div["+i+"]/table[1]/thead/tr[2]/th")).getAttribute("textContent");
 	  	String bairro = driver.findElement(By.xpath("/html/body/div["+i+"]/table[2]/tbody/tr[2]/td[2]/span")).getAttribute("textContent");
 	  	String mun = driver.findElement(By.xpath("/html/body/div["+i+"]/table[2]/tbody/tr[3]/td[2]/span")).getAttribute("textContent");
 	  	String cep = driver.findElement(By.xpath("/html/body/div["+i+"]/table[2]/tbody/tr[4]/td[2]/span")).getAttribute("textContent");
 	  	String tel = driver.findElement(By.xpath("/html/body/div["+i+"]/table[2]/tbody/tr[6]/td[2]/span")).getAttribute("textContent");
-	 
 	  	logradouro = logradouro.replace("Rua  ", "");
 	  	/* Condição necessária para funcionamento do código, uma vez que o site não apresenta um padrão conciso de digitação, ou seja, há alguns espaços indevidos e aleatórios. */
 	  	if (i == 11)
@@ -48,8 +45,8 @@ public class Zona {
 	  	logradouro = a[0];
 	  	String b1 = a[1];
 	  	String[] b = b1.split("       ");
-	  	num = b[0];
-	  	complemento = b[1];
+	  	String num = b[0];
+	  	String complemento = b[1];
 	    /* Criando .CSV */
 	  	arquivo.write(zonanume  + "ª - " + zonanome +  ";" + logradouro.toUpperCase() + ";" + num.toUpperCase() + ";" + complemento.toUpperCase() + ";" + bairro.toUpperCase() + ";" + mun + ";" + cep + ";" + tel);
 	  	arquivo.write(System.getProperty("line.separator"));
