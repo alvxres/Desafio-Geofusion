@@ -1,9 +1,13 @@
-===========INSTRU«’ES PARA EXECUTAR O BOT (ROB‘):===============
-
-Abrir o arquivo "Bot.jar" em uma pasta contendo chromedriver.exe. (Caso este esteja faltando, o bot n„o far· nada).
+Um .txt do c√≥digo encontra-se em "Codigo"
 
 
-===================O QUE O BOT FAR¡:========================
 
-Abrir· o Chrome de forma automatizada, carregar· a p·gina em quest„o, selecionando a opÁ„o "CAMPINAS" e salvar· os dados no arquivo "Dados.csv" 
-(que deve se encontrar no mesmo local o qual o bot fora aberto). Logo apÛs, o Chrome ser· fechado. Tarefa finalizada.
+===========INSTRU√á√ïES PARA EXECUTAR O BOT (ROB√î):===============
+
+Abrir o arquivo "Bot.jar" em uma pasta contendo chromedriver.exe. (Caso este esteja faltando, o bot n√£o far√° nada).
+
+
+===================O QUE O BOT FAR√Å:========================
+
+Abrir√° o Chrome de forma automatizada, carregar√° a p√°gina em quest√£o, selecionando a op√ß√£o "CAMPINAS" e salvar√° os dados no arquivo "Dados.csv" 
+(que deve se encontrar no mesmo local o qual o bot fora aberto). Logo ap√≥s, o Chrome ser√° fechado. Tarefa finalizada.
