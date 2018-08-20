@@ -1,6 +1,4 @@
-Um .txt do código encontra-se em "Codigo"
-
-
+Um arquivo .txt do código encontra-se em "Codigo"
 
 ===========INSTRUÇÕES PARA EXECUTAR O BOT (ROBÔ):===============
 
