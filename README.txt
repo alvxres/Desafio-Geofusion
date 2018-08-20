@@ -3,6 +3,7 @@ Um arquivo .txt do código encontra-se em "Codigo"
 ===========INSTRUÇÕES PARA EXECUTAR O BOT (ROBÔ):===============
 
 Abrir o arquivo "Bot.jar" em uma pasta contendo chromedriver.exe. (Caso este esteja faltando, o bot não fará nada).
+*Necessário ter java instalado para abrir o .jar
 
 
 ===================O QUE O BOT FARÁ:========================
